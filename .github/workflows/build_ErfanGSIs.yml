@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://coloroswebsitefs.coloros.com/coloroswebsite-coloros-com/grs_20210204085747/PCGM00_11_OTA_2140_all_iSlZcNBwgCKR.ozip
-  ROM_NAME: Color
+  ROM_URL: https://ip243733562.out.azhimalayanvh.com/Firmware/Flyme/16/8.1.5.0/cn/20200824152055/8654496b/update.zip?ali_redirect_domain=firmware.meizu.com&ali_redirect_ex_ftag=87ed8779814a82d0d2e036bc6994733971ccfaa54af8aeaa&ali_redirect_ex_tmining_ts=1617275715&ali_redirect_ex_tmining_expire=3600&ali_redirect_ex_hot=100
+  ROM_NAME: flyme
   TZ: Asia/Shanghai
 
 jobs:
