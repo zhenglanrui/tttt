@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://bigota.d.miui.com/V12.0.2.0.QFCCNXM/miui_PYXIS_V12.0.2.0.QFCCNXM_b122bf39b6_10.0.zip
-  ROM_NAME: MIUI
+  ROM_URL: 
+  ROM_NAME: Flyme
   TZ: Asia/Shanghai
 
 jobs:
@@ -45,13 +45,13 @@ jobs:
          run: git clone --recurse-submodules https://github.com/erfanoabdi/ErfanGSIs.git
        
        - name: Setting up ErfanGSI requirements
-         run: |
+         run: |  
               sudo chmod -R 777 ErfanGSIs
               cd ErfanGSIs
               sudo bash setup.sh
        
        - name: Download Stock Rom & Generate GSI
-         run: sudo ./ErfanGSIs/url2GSI.sh $ROM_URL $ROM_NAME
+         run: sudo ./ErfanGSIs/url2GSI.sh -ab $ROM_URL $ROM_NAME
        
        - name: Zip GSI  
          run: |
