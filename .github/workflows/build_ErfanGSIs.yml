@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://cloud.189.cn/t/Qr6V3meqqY7j
+  ROM_URL: https://bigota.d.miui.com/V12.0.2.0.QFCCNXM/miui_PYXIS_V12.0.2.0.QFCCNXM_b122bf39b6_10.0.zip
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
