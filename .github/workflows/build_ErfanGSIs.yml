@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://bigota.d.miui.com/V10.2.2.0.MCCCNXM/miui_HM4A_V10.2.2.0.MCCCNXM_852aa3d7a2_6.0.zip
-  ROM_NAME: MIUI
+  ROM_URL: https://ip186557300.out.azhimalayanvh.com/Firmware/Flyme/16/7.1.4.3/cn/20190228101130/d2f26d1f/update.zip?ali_redirect_domain=firmware.meizu.com&ali_redirect_ex_ftag=15214b7685ad75cf77bada07035159c187e48a39821dcae5&ali_redirect_ex_tmining_ts=1617359060&ali_redirect_ex_tmining_expire=3600&ali_redirect_ex_hot=100
+  ROM_NAME: Flyme
   TZ: Asia/Shanghai
 
 jobs:
